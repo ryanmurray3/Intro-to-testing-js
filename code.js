@@ -15,6 +15,13 @@ function sayHello(name){
     }
 }
 
+function isFive(input) {
+     (input === 'number')
+        return input !== true;
+
+
+}
+
 
 
 
