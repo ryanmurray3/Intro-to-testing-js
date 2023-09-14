@@ -4,8 +4,15 @@ function helloWorld() {
 }
 
 function sayHello(name){
-
-    return ("Hello, " + (name) + "!");
+    if (name === true)
+         return ("Hello, World!");
+    else if (name === false){
+        return ("Hello, World!");
+    }else if (typeof name === 'number') {
+        return ("Hello, World!");
+    }else {
+        return ("Hello, " + (name) + "!");
+    }
 }
 
 
